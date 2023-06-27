@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.GrowBe {
+    margin-top: 45px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    margin-top: 51px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    font-size: 14px;
+    font-family: Gilroy-SemiBold;
+}
+
+.get-started {
+    margin-top: 40px;
+}
+
+.get-started-button {
+    font-size: 12px;
+    font-family: Gilroy-SemiBold;
+    color: #fff;
+    border-radius: 30px;
+    background: #F25822;
+    padding: 12px 27px 13px;
+    border: none;
+}
+
+.get-started-button:hover {
+    color: #F25822;
+    background-color: #FFF;
+}
+
+.get-started-button:active {
+    color: #FFF;
+    background-color: #F25822;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+}
+
+.home-button {
+    color: #F25822;
+}
+
+.h1_title {
+    margin-top: 164px;
+    color: #000;
+    font-size: 60px;
+    font-family: Gilroy-Bold;
+}
+
+.content_image {
+    margin-top: 94.71px;
+}
+
+.text {
+    margin-top: 17px;
+    margin-bottom: 37px;
+    color: #888;
+    font-size: 20px;
+    font-family: Gilroy-Medium;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
+.start_now {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    padding: 15px 36px 16px 35px;
+    border: none;
+}
+
+.start_now:hover {
+    color: #F25822;
+    background-color: #FFF;
+}
+
+.start_now:active {
+    color: #FFF;
+    background: #F25822;
+}
+
+.watch_video {
+    margin-bottom: 103 px;
+    color: #AAA;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    border: none;
+    background-color: #FFF;
+}
+
+.watch_video:hover {
+    color: #F25822;
+}
+
+.watch_video:active {
+    color: #AAA;
+}
+
+.footer-logo {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
