@@ -14,14 +14,27 @@
     display: flex;
     justify-content: space-between;
     background-color: #222222;
-    width: 100vw;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
-.header-button {
-    background-color: #222222;
-    border: none;
+.find {
+    background-color: #222;
     margin-top: 8px;
+}
+
+.menu {
+    margin-top: 8px;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu:focus .submenu,
+.menu:active .submenu,
+.submenu:hover {
+    display: block;
 }
 
 .header-navigation-left {
@@ -31,6 +44,8 @@
 }
 
 .header-navigation-right {
+    display: flex;
+    gap: 33px;
     margin-right: 5%;
 }
 
@@ -51,7 +66,7 @@
     gap: 16px;
     padding-top: 290px;
     padding-left: 0;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .content {
@@ -196,6 +211,220 @@
     background-color: #fff;
 }
 
+.black-box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: #222224;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.black-box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.black-box-img1 {
+    margin-top: 103px;
+    margin-bottom: 28.07px;
+}
+
+.black-box-img2 {
+    margin-top: 104px;
+    margin-bottom: 19.07px;
+}
+
+.black-box-title {
+    color: #FBFBFB;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.black-box-text,
+.black-box-text-end {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 104px;
+    width: 360px;
+}
+
+.black-box-img3 {
+    margin-top: 103px;
+    margin-bottom: 25.06px;
+}
+
+.down {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin-bottom: -4px;
+}
+
+.down-background-img {
+    opacity: 0.5;
+    height: 100%;
+    max-width: 1600px;
+    overflow-x: hidden;
+}
+
+.down-background {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    overflow: hidden;
+}
+
+.down-content {
+    display: flex;
+    justify-content: space-around;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    z-index: 1;
+}
+
+.down-left {
+    text-align: center;
+}
+
+.down-left-img {
+    margin-top: 86px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.down-left-text {
+    color: #222224;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 360px;
+}
+
+.down-right-title {
+    margin-top: 148px;
+    color: #222224;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+    margin-bottom: 8px;
+}
+
+.down-right-text {
+    margin-bottom: 39px;
+}
+
+.input-field {
+    display: flex;
+    height: 49px;
+}
+
+.input-field-inside {
+    background-color: #E1E1E1;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 216px;
+}
+
+.input-subscribe {
+    background-color: #F16D7F;
+    border: none;
+    height: 49px;
+    width: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.input-subscribe:hover {
+    color: #F16D7F;
+    background-color: #FFF;
+}
+
+.input-subscribe:active {
+    color: #FFF;
+    background-color: #F16D7F;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222224;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #FBFBFB;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+
+.logo {
+    display: flex;
+    gap: 7.3px;
+    margin-right: 10%;
+}
+
+.logo-img {
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    margin-top: 24px;
+    display: grid;
+    border-radius: 3px;
+}
+
+.btn {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo-img:hover {
+    background-color: #F16D7F;
+}
+
+.logo-img:hover path {
+    fill: white;
+}
+
+.logo-brand-img {
+    border: 1 solid white;
+    background-color: #FFF;
+    margin: auto;
+}
+
 @media (max-width:1025px) {
     .header-navigation {
         padding-bottom: 20px;
@@ -239,6 +468,44 @@
         grid-template-columns: repeat(2, 360px);
         gap: 16px;
     }
+    .black-box {
+        flex-direction: column;
+    }
+    .black-box-text {
+        margin-bottom: 48px;
+    }
+    .black-box-img1 {
+        margin-top: 48px;
+    }
+    .black-box-img2,
+    .black-box-img3 {
+        margin-top: 0;
+    }
+    .down-content {
+        flex-direction: column;
+    }
+    .down-background-img {
+        justify-self: center;
+    }
+    .copyright {
+        margin-left: 5%;
+    }
+    .down-left-img {
+        margin-top: 63px;
+    }
+    .down-left-text {
+        margin: 0 auto;
+    }
+    .down-right-title {
+        margin-top: 48px;
+    }
+    .down-right-text {
+        text-align: center;
+    }
+    .input-field {
+        margin-bottom: 140px;
+        justify-content: center;
+    }
 }
 
 @media(max-width: 768px) {
@@ -255,6 +522,9 @@
         margin-top: 148px;
         margin-bottom: 149px;
         padding-top: 0;
+    }
+    .brand {
+        width: 250px;
     }
     .grid-img {
         gap: 32px;
@@ -289,6 +559,12 @@
     .bottom-img {
         height: 418px;
     }
+    .black-box {
+        flex-direction: column;
+    }
+    .down {
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 321px) {
@@ -305,6 +581,9 @@
         margin-top: 122px;
         margin-bottom: 129px;
         padding-top: 0;
+    }
+    .brand {
+        width: 230px;
     }
     .grid-img {
         gap: 28px;
@@ -351,5 +630,16 @@
     .text {
         font-size: 14px;
         font-weight: 200;
+    }
+    .black-box-text,
+    .black-box-text-end {
+        width: 310px;
+    }
+    .down-left-text {
+        width: 310px;
+    }
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
